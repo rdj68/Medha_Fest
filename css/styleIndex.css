@@ -1,0 +1,64 @@
+@font-face
+{
+    font-family: visby-cf-light;
+    src: url('../font/VisbyRoundCF-Light.otf');
+}
+@font-face
+{
+    font-family: visby-cf-bold;
+    src: url('../font/VisbyRoundCF-Bold.otf');
+}
+@font-face
+{
+    font-family: visby-cf-extra-bold;
+    src: url('../font/VisbyRoundCF-ExtraBold.otf');
+}
+@font-face
+{
+    font-family: visby-cf-extra-light;
+    src: url('../font/VisbyRoundCF-ExtraLight.otf');
+}
+@font-face
+{
+    font-family: visby-cf-extra-medium;
+    src: url('../font/VisbyRoundCF-Medium.otf');
+}
+@font-face
+{
+    font-family: visby-cf-extra-heavy;
+    src: url('../font/VisbyRoundCF-Heavy.otf');
+}
+@font-face
+{
+    font-family: virgo;
+    src: url('../font/virgo.ttf');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../res/bg2.jpeg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.head-logo{
+    font-family: visby-cf-bold;
+    color: green;
+}
+.head-logo img
+{
+    box-shadow: 2px 3px 3px 0.5px #000;
+}
+.center-img,.medha-head-nav{
+    font-family: visby-cf-bold;
+    color: yellow;
+}
+.center-img h2{
+    font-family: virgo;
+    text-shadow: 2px 5px 10px #ff0000;
+}
+.sidebar-medha
+{
+    font-family: visby-cf-extra-medium;
+    
+}

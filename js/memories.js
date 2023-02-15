@@ -45,7 +45,8 @@ function display(year, len) {
 
   for (let i = 1; i <= len; i++) {
     console.log(i);
-    let src = `memories/${year}/${year} (${i}).jpg`;
+    let src = `../res/memories/${year}/${year} (${i}).jpg`;
+    console.log(src);
     photos.push({ year, src });
   }
   photos.forEach((photo) => {

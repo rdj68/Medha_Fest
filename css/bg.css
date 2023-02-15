@@ -1,6 +1,5 @@
 body {
-    background-image: url('../res/bg.jpeg');
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../res/bg.jpeg');    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -8,5 +7,3 @@ body {
     margin: 0;
     backdrop-filter: blur(5px);
   }
-
-  
