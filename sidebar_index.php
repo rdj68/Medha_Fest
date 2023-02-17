@@ -15,7 +15,7 @@
                           overflow-hidden text-white text-ellipsis
                           whitespace-nowrap rounded hover:text-gray-900
                           hover:bg-gray-300 transition duration-500 ease-in-out"
-                          href="https://www.medhacultfest.com"
+                          href="index"
                           data-mdb-ripple="true"
                           data-mdb-ripple-color="dark">
                           <svg

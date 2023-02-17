@@ -55,7 +55,7 @@
             <li class="nav-item p-2">
               <a
                 class="nav-link  flex gap-4 items-center"
-                href="https://www.medhacultfest.com">
+                href="index">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
