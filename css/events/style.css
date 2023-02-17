@@ -15,14 +15,14 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
-    background: #0b2239;
+    background: #00000082;
 }
 header .header-left {
     display: flex;
-    align-items: center;
+    align-items: left;
    
 }
-header .header-left .logo {
+header .header-right .logo {
     width: 140px;
 }
 header .header-left nav {
@@ -48,7 +48,7 @@ nav .login-signup {
 }
 header .header-right {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 header .login-signup {
     color: #cfd9e0;
@@ -56,17 +56,17 @@ header .login-signup {
 }
 header .login-signup a {
     display: inline-block;
-    color: #0b2239;
+    color: hsla(0, 0%, 0%, 0.504);
     background: #4ad295;
     padding: 5px 12px;
     border-radius: 5px;
 }
-header .header-right .hamburger {
+header .header-left .hamburger {
     margin-left: 20px;
     cursor: pointer;
     display: none;
 }
-header .header-right .hamburger div {
+header .header-left .hamburger div {
     width: 30px;
     height: 2px;
     margin: 6px 0;
@@ -76,7 +76,7 @@ header .header-right .hamburger div {
     header {
         padding: 0 20px;
     }
-    header .header-right .hamburger {
+    header .header-left .hamburger {
         display: block;
     }
     header .header-left nav {
@@ -86,10 +86,10 @@ header .header-right .hamburger div {
         left: 0;
         width: 100%;
         height: fit-content;
-        background-color: #0b2239;
+        background-color: #000000;
         padding: 30px;
         transition: 0.3s;
-        text-align: center;
+        text-align: left;
         z-index: 1;
        
     

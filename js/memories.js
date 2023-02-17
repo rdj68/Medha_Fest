@@ -12,28 +12,28 @@ function handleToggle(year) {
   document.getElementById("mainContainer").innerHTML = "";
   switch (year) {
     case "2017":
-      display(year, 50);
+      display(year, 100);
       break;
     case "2018":
-      display(year, 50);
+      display(year, 55);
       break;
     case "2019":
-      display(year, 50);
+      display(year, 35);
       break;
     case "2020":
-      display(year, 50);
+      display(year, 150);
       break;
     case "2023":
-      display(year, 28);
+      display(year, 25);
       break;
     case "all":
       console.log("all");
       displayYtVid();
-      display(2017, 10);
-      display(2018, 10);
-      display(2019, 10);
-      display(2020, 10);
-      display(2023, 10);
+      display(2017, 40);
+      display(2018, 20);
+      display(2019, 20);
+      display(2020, 20);
+      display(2023, 20);
       break;
     default:
       break;
